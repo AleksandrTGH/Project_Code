@@ -7,8 +7,8 @@ pipeline {
         CLASS                 = "GitSCM"
         BRANCH                = "main"
         GIT_CREDENTIALS       = "GitHub_SSH"
-        GIT_URL               = "git@github.com:AleksandrTGH/Test_Code.git" // to change
-	    GIT_CONFIGURATION_URL = "git@github.com:AleksandrTGH/Test_Configuration.git" // to change
+        GIT_URL               = "git@github.com:AleksandrTGH/Project_Code.git"
+	    GIT_CONFIGURATION_URL = "git@github.com:AleksandrTGH/Project_Configuration.git"
 
         // Publish to S3 Bucket stage
         REGION          = "us-east-1"
